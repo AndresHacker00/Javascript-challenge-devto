@@ -1,0 +1,74 @@
+@use '../variables';
+@import "../mixings";
+
+.assideLeftFirstNav{
+    .list-group{
+        .list-group-item{
+            background-color: transparent;
+            border: none;
+            a{
+                color: black;
+                cursor: pointer;
+                text-decoration: none;
+                &:hover{
+                    color: variables.$navbarBlueCreatePost;
+                }
+                img{
+                    height: 24px;
+                }
+            }
+        }
+    }
+    .listTitle{
+        font-size: 1rem;
+        font-weight: variables.$font-700;
+      }
+      .tagsListTitle{
+        .listTitle{
+            font-size: 1rem;
+            font-weight: variables.$font-700;
+          }
+      }
+      .tagsList{
+        max-height: 12rem;
+        overflow-y: auto;
+        li{
+            .tagItem{
+                    color: variables.$colorTagTitle;
+                    font-size: 1rem;
+            }
+        }
+      }
+    .assideLeftNetworks {
+        a{
+            span{
+              img{
+                height: 1.25rem;
+                @include responsive(variables.$large){
+                    height: 1.75rem;
+                }
+              }
+            }
+          }
+    }
+}
+.cardComunityAsideLeft{
+    font-size: 1rem;
+    .title{
+        font-size: 1.5rem;
+        font-weight: variables.$font-700;
+    }
+    a{
+        font-size: inherit;
+    }
+    strong{
+        font-size: inherit;
+    }
+    &__body{
+        &--text{
+            a{
+                font-weight: variables.$font-700;
+            }
+        }
+    }
+}

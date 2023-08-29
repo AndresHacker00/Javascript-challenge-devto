@@ -1,0 +1,99 @@
+//colors
+$navbarBlueCreatePost: rgb(59, 73, 223);
+$navbarBlueCreatePostBorder: rgb(47, 58, 178);
+$whiteColor: rgb(254, 254, 254);
+$createPostText: rgb(116,126,232);
+$searchHover: rgba(121, 132, 255, 0.248);
+$newPostBg:rgb(245,245,245);
+$colorTagTitle: rgb(77,77,77);
+$colorCardTitle: rgb(74,74,74);
+$colorNewPostForm: rgb(249,249,249);
+//socialNetworks
+$blackSocialNetwork: rgb(64,64,64);
+
+//global-colors
+$smothGreey: #828282;
+$GreeyPearl: #404040;
+$greeyS : #595959;
+$greyGraphite:#575757;
+$greeyLigth: #717171;
+$greeyLigth-s:#525252;
+$whiteSmoke: #f5f5f5;
+$whiteBrigth: #ffffff;
+$witheGeneric:#f9f9f9;
+$blackBrigth: #242424;
+$blueKing: #3B49DF;
+$pink:rgb(255,132,238);
+$purple:rgb(187,78,245);
+$green:rgb(48,147,78);
+$blackGreey:#171717;
+
+//globalElementsAssideRigth
+$borderStandar: 0.5rem;
+$borderUnderline: solid 1px #e9e7e7e8;
+$borderSpecialF: 2rem solid black;
+$borderButton:solid 1px #3B49DF;
+$padding-small: 0.8rem;
+$padding-small-x: 0.6rem;
+$size-standar: 1rem;
+$size-sx:2rem;
+$size-medium: 0.9rem;
+$size-large: 1.3rem;
+$size-medium-x:1.25rem;
+$size-large-x:1.75rem;
+$size-xx: 3.4rem;
+$size-xlx:8rem;
+$size-extra-small:0.3rem;
+$percentaje-small-s:20%;
+$percentaje-small:30%;
+$percentaje-small-x:35%;
+$percentage-medium:50%;
+$percentage-mfull:80%;
+$percentage-full:100%;
+
+// Breakpoints
+$xxsmall:320px;
+$xsmall: 375px;
+$small: 425px;
+$medium: 768px;
+$large: 992px;
+$laptop:1024px;
+$extra-large: 1200px;
+$extra-extra-large: 1400px;
+$extra-4k: 2560px;
+$size-xx: 3rem;
+
+//dimentions
+$headerPadding: 0.5rem;
+$headerHeight: 3.75rem;
+$logoHeightPrevent: 0.5rem;
+$createPostMargin: 0.5rem;
+$percentage-mfull:80%;
+
+// gap standard 1rem
+$standGap:1rem;
+$halfGap:0.5rem;
+
+//margin de standard 1rem
+$standarMargin: 1rem;
+$mediumMargin:0.5rem;
+$standarRem: 1rem;
+$paddingHalfRem: 0.5rem;
+
+
+//fonts family
+$monospace: 'SF Mono', SFMono-Regular, Consolas, 'Liberation Mono', Menlo, Courier, monospace;
+$sans-serif: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+$serif: Palatino, 'Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif;
+$comic: 'Comic Sans MS', cursive, sans-serif;
+
+//fontWeight
+
+$font-100: 100;
+$font-200: 200;
+$font-300: 300;
+$font-600: 600;
+$font-700: 700;
+
+$font-size-1: 1.125rem;
+$font-size-2: 1.875rem;

@@ -1,0 +1,52 @@
+@use './variables';
+
+@mixin make-container($padding-x: variables.$headerPadding) {
+    width: 100%;
+    padding-right: $padding-x;
+    padding-left: $padding-x;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@mixin responsive($breakpoint) {
+    @if ($breakpoint == variables.$xxsmall) {
+        @media screen and (min-width: variables.$xxsmall) {
+          @content;
+        }
+      }
+      @if ($breakpoint == variables.$xsmall) {
+        @media screen and (min-width: variables.$xsmall) {
+          @content;
+        }
+      }
+      @if ($breakpoint == variables.$small) {
+        @media screen and (min-width: variables.$small) {
+          @content;
+        }
+      }
+      @if ($breakpoint == variables.$medium) {
+        @media screen and (min-width: variables.$medium) {
+          @content;
+        }
+      }
+      @if ($breakpoint == variables.$large) {
+        @media screen and (min-width: variables.$large) {
+          @content;
+        }
+      }
+      @if ($breakpoint == variables.$extra-large) {
+        @media screen and (min-width: variables.$extra-large) {
+          @content;
+        }
+      }
+      @if ($breakpoint == variables.$extra-extra-large) {
+        @media screen and (min-width: variables.$extra-extra-large) {
+          @content;
+        }
+      }
+      @if ($breakpoint == variables.$extra-4k) {
+        @media screen and (min-width: variables.$extra-4k) {
+          @content;
+        }
+      }
+    }

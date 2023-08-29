@@ -1,0 +1,224 @@
+@use "../variables";
+@import "../mixings";
+
+html,
+body {
+  background-color: #f5f5f5;
+}
+
+.navbar {
+  font-family: variables.$sans-serif;
+  .custom-container {
+    height: variables.$headerHeight;
+    @include make-container();
+    .burguerButtonSpan{
+        .burguerbutton{
+            background-color: transparent;
+            border: none;
+        }
+    }
+    .emergentOffCanvas{
+        .offcanvas{
+          max-width: 350px;
+          .offcanvas-header{
+            word-break: break-word;
+            font-weight: variables.$font-700;
+            font-size: 1.125rem;
+          }
+            .offcanvas-body{
+                padding-left: 0px;
+                padding-top: 0px;
+                h5{
+                  font-size: 1rem;
+                  font-weight: variables.$font-700;
+                }
+                .list-group{
+                    .list-group-item{
+                        border: none;
+                        a{
+                            color: black;
+                            cursor: pointer;
+                            text-decoration: none;
+                            &:hover{
+                                color: variables.$navbarBlueCreatePost;
+                            }
+                            img{
+                                height: 24px;
+                            }
+                        }
+                    }
+                }
+                .offcanvas-body_networks{
+                  a{
+                    span{
+                      img{
+                        height: 1rem;
+                      }
+                    }
+                  }
+                }
+            }
+        }
+    }
+    .navbar-brand {
+      .devto-home-logo {
+        display: inline-block;
+        height: calc(variables.$headerHeight - variables.$logoHeightPrevent * 2);
+        max-width: 100%;
+        object-fit: contain;
+        outline: 0px;
+        vertical-align: middle;
+        width: auto;
+      }
+    }
+    .searchContainer {
+      border-radius: 8px;
+      border: 2px solid #e3e3e3;
+      flex: 1 1 0%;
+      height: 2.5rem;
+      max-width: 22rem;
+      position: relative;
+      &__searchForm {
+        .searchInput {
+          font-family: inherit;
+          font-weight: 400;
+          outline: 0px;
+          padding: 0.375rem 0.5rem;
+        }
+        .buttonSearch {
+          background-color: transparent;
+          border-radius: 4px;
+          border: none;
+          height: 100%;
+          padding: 0px variables.$logoHeightPrevent;
+          position: absolute;
+          right: 0px;
+          width: 40px;
+
+          &:hover {
+            background-color: #2c6be02c;
+            svg {
+              color: #2e6ad9e5;
+            }
+          }
+          span {
+            svg {
+              bottom: 2px;
+              height: 22px;
+              left: 1px;
+              position: relative;
+              width: 22px;
+            }
+          }
+        }
+      }
+      @include responsive(variables.$large){
+        max-width: 25.5rem;
+      }
+    }
+    .buttonsContainer {
+      height: 100%;
+      margin-left: auto;
+      .searchLuopeMobileButton{
+        margin: 0px 0.5rem;
+        &:hover{
+          background-color: variables.$searchHover;
+          border: 1px solid variables.$searchHover;
+        }
+        span{
+          img{
+            position: relative;
+            bottom: 1px;
+            height: 1.675rem;
+          }
+        }
+      }
+      .createPost {
+        border: 1px solid variables.$navbarBlueCreatePostBorder;
+        border-radius: 0.375rem;
+        font-family: variables.$sans-serif;
+        height: 2.4rem;
+        margin-right: variables.$createPostMargin;
+        padding: calc(0.5rem - 1px) calc(1rem - 1px);
+        &:hover {
+          background-color: variables.$navbarBlueCreatePost;
+          a {
+            color: variables.$whiteColor;
+            text-decoration: underline;
+          }
+        }
+        a {
+          font-size: 1rem;
+          font-weight: 600;
+          white-space: nowrap;
+          text-decoration: none;
+          z-index: 1;
+          color: variables.$createPostText;
+        }
+      }
+      .notifications {
+        color: black;
+        font-size: 2rem;
+        svg {
+          bottom: 6px;
+          height: 1.5rem;
+          position: relative;
+          width: 2rem;
+        }
+      }
+      .userSessionButton{
+        .buttonDropdown{
+            margin-right: 1rem;
+            border-radius: 50%;
+            width: 2.5rem;
+            height: 2.5rem;
+            background-color: transparent;
+            border: none;
+            span{
+                img{
+                    border-radius: 50%;
+                    width: 2.25rem;
+                    height: 2.25rem;
+                }
+            }
+        }
+        .dropUserInfo{
+            width: variables.$xxsmall;
+            padding: variables.$standarRem variables.$paddingHalfRem;
+            & > li{
+                margin: 4px 0px;
+            }
+            li{
+                &:first-child{
+                    border-bottom: 1px solid rgba(128, 128, 128, 0.533);
+                    padding-bottom: variables.$paddingHalfRem;
+                }
+                &:last-child{
+                    padding-top: variables.$paddingHalfRem;
+                    border-top: 1px solid rgba(128, 128, 128, 0.533);
+                }
+                    .userLogedIdentifier{
+                        position: relative;
+                        bottom: variables.$paddingHalfRem;
+                    }
+            }
+            @include responsive(variables.$xsmall){
+                width: variables.$xsmall;
+            }
+            @include responsive(variables.$small){
+                width: variables.$small;
+            }
+            @include responsive(variables.$medium){
+                margin-right: calc(variables.$paddingHalfRem * -1);
+                max-width: 260px;
+                
+            }
+        }
+      }
+    }
+  }
+}
+
+.dropdown-toggle::after{
+    display: none;
+}

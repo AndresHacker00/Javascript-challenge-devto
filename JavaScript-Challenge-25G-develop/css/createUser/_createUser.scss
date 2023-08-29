@@ -1,0 +1,62 @@
+@use '../variables.scss';
+
+html {
+    font-family: variables.$sans-serif;
+}
+
+.contentLogin{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin:0px auto;
+    padding-left:variables.$size-xlx;
+    padding-right:variables.$size-xlx;
+    &__registration{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color:variables.$whiteBrigth ;
+        border-radius:variables.$borderStandar ;
+        padding-left:variables.$size-sx;
+        padding-right:variables.$size-sx;
+        padding-top:3rem ;
+        padding-bottom: rem;
+        margin: 0;
+        h1{
+            font-size:variables.$size-large-x;
+            font-weight:variables.$font-700;
+        }
+        p{
+            font-size: variables.$size-medium;
+        }
+    }
+}
+
+.registrationButtons{
+    gap:variables.$padding-small;
+    width:variables.$percentage-full;
+}
+
+.formUser{
+    width: 100%;
+    column-gap: 0;
+}
+
+.buttonLoggin{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    button{
+        width:variables.$percentage-full;
+        background-color: variables.$blueKing;
+        font-weight: bold;
+        padding: variables.$padding-small-x;
+    }
+    a{
+        text-decoration: none;
+        font-size: 14px;
+        font-weight: 0;
+        padding-left:variables.$percentaje-small-x;
+        padding-top:variables.$size-standar;
+    }
+}

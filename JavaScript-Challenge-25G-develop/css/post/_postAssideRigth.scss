@@ -1,0 +1,150 @@
+@use"../variables";
+
+.container {
+    background-color:variables.$whiteSmoke;
+    padding-top:variables.$size-standar;
+    font-family: variables.$sans-serif;
+}
+
+.cardUserFollow {
+    background-color:variables.$whiteBrigth;
+    border-radius:variables.$borderStandar;
+    border-top:variables.$borderSpecialF;
+    padding:variables.$size-standar;
+    margin-bottom:variables.$size-standar;
+    .cardUserDate{
+        align-items: end;
+        display: flex;
+        gap:5px ;
+        position: absolute;
+        top:variables.$size-large-x;
+        &__image {
+            border-radius:variables.$percentage-medium;
+            max-width:variables.$percentaje-small-s;
+        }
+        &__name {
+            color:variables.$GreeyPearl;
+            font-size:variables.$size-medium-x;
+            font-weight: variables.$font-700;
+            text-decoration: none;
+        }
+    }
+    &__body {
+        margin-top:variables.$size-large-x;
+        &--btn {
+            background-color:variables.$blueKing;
+            border-radius:variables.$borderStandar;
+            border-style: none;
+            color:variables.$witheGeneric;
+            display: flex;
+            font-size:variables.$size-medium;
+            font-weight:variables.$font-600;
+            justify-content: center;
+            padding:variables.$borderStandar;
+            text-decoration: none;
+            text-align: center;
+            width:variables.$percentage-full;
+            margin-bottom:variables.$size-standar;
+        }
+        &--description {
+            font-size:variables.$size-medium;
+            color:variables.$greyGraphite;
+            margin-bottom:variables.$size-standar;
+        }
+        &--informationUser {
+            display: flex;
+            flex-direction: column;
+            justify-content: start;
+            list-style: none;
+            }
+            span {
+                font-size:variables.$padding-small;
+                font-weight:variables.$font-700;
+                color:variables.$greeyLigth-s;
+            }
+            p {
+                font-size:variables.$padding-small;
+                color:variables.$GreeyPearl;
+            }
+        }    
+}
+
+.cardMoreUser {
+    &__list {
+        border-radius:variables.$borderStandar;
+        margin-bottom:variables.$size-standar;
+        &--title {
+            color:variables.$GreeyPearl;
+            font-size:variables.$size-medium-x;
+            font-weight: variables.$font-700;
+            a {
+                color:variables.$blueKing;
+                text-decoration: none;
+            }
+        }
+        &--text {
+            font-size:variables.$padding-small;
+            color:variables.$greeyLigth;
+            a {
+                color:variables.$GreeyPearl;
+                font-size:variables.$size-standar;
+                text-decoration: none;
+            }
+            span {
+                font-size:variables.$padding-small;
+                color:variables.$greeyLigth;
+            }
+        }    
+    }
+}
+.asside-left{
+    height:1800px;
+}
+.cardCategory {
+    background-color:variables.$whiteBrigth;
+    border-radius:variables.$borderStandar;
+    padding:variables.$size-standar;
+    position: sticky;
+    top: variables.$size-standar;
+    &__body {
+        background-color:variables.$whiteBrigth;
+        &--link {
+            display: flex;
+            color:variables.$greeyS;
+            font-size:variables.$size-medium;
+            justify-content: space-between;
+            img {
+                width:variables.$percentage-medium;
+            }
+        }    
+        &--title {
+            color:variables.$GreeyPearl;
+            font-size :variables.$size-large;
+        }   
+        &--description {
+            color:variables.$GreeyPearl;
+            font-size:variables.$size-standar;
+        } 
+        &--subTitle {
+            color: variables.$GreeyPearl;
+            font-size: variables.$size-standar;
+        }
+        &--list {
+            color:variables.$GreeyPearl;
+            font-size:variables.$size-standar;
+        }
+        &--btn {
+            background-color: transparent;
+            border:variables.$borderButton;
+            display: flex;
+            color:variables.$blueKing;
+            font-size:variables.$size-standar;
+            justify-content: center;
+        }
+        
+    }
+}
+
+    
+
+

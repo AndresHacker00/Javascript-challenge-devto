@@ -1,0 +1,51 @@
+@use '../variables';
+
+.newpostWrapper{
+    background-color: variables.$colorNewPostForm;
+    .createNavWrapper {
+        .titleAndBrandWrapper{
+            .imgBrand {
+                a {
+                    img {
+                        height: calc(variables.$headerHeight - variables.$logoHeightPrevent * 2);
+                        max-width: 100%;
+                        object-fit: contain;
+                        outline: 0px;
+                        vertical-align: middle;
+                        width: auto;
+                    }
+                }
+            }            
+        }
+        .close{
+            .closeButton{
+                border: none;
+                background-color: transparent;
+                border-radius: 8px;
+                &:hover{
+                    background-color: variables.$searchHover;
+                }
+                span{
+                    a{
+                        font-size: 1.5rem;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.description {
+    &__text {
+        margin-top: 8rem;
+        margin-left: 1rem;
+        h2 {
+            font-weight: variables.$font-700;
+        }
+    }
+}
+.cardImgTop{
+    max-height: 15rem;
+    width: auto;
+}

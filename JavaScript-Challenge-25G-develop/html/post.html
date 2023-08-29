@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevTo-Clone-Unloged-User</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar bg-white p-0">
+      <div class="container bg-body-tertiary p-0">
+        <div
+          class="custom-container bg-body d-flex align-items-center px-0 px-md-3"
+        >
+          <span class="burguerButtonSpan d-block d-md-none">
+            <button
+              class="burguerbutton px-2 mx-2"
+              type="button"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasWithBothOptions"
+              aria-controls="offcanvasWithBothOptions"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                role="img"
+                aria-labelledby="aatx4p9mym76amu1umourgn357bqizol"
+                class="crayons-icon"
+              >
+                <title id="aatx4p9mym76amu1umourgn357bqizol">
+                  Navigation menu
+                </title>
+                <path d="M3 4h18v2H3V4zm0 7h18v2H3v-2zm0 7h18v2H3v-2z"></path>
+              </svg>
+            </button>
+          </span>
+          <aside class="emergentOffCanvas">
+            <div
+              class="offcanvas offcanvas-start"
+              data-bs-scroll="true"
+              tabindex="-1"
+              id="offcanvasWithBothOptions"
+              aria-labelledby="offcanvasWithBothOptionsLabel"
+            >
+              <div class="offcanvas-header">
+                <h5
+                  class="offcanvas-title"
+                  id="offcanvasWithBothOptionsLabel"
+                >
+                  DEV Community
+                </h5>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="offcanvas"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="offcanvas-body">
+                <ul class="list-group">
+                  <li class="list-group-item">
+                    <a href=""
+                      ><span class="c-link__icon">
+                        <img
+                          src="../assets/icons/hoouse-Icon.svg"
+                          alt="House ICon"
+                        />
+                      </span>
+                      Home</a
+                    >
+                  </li>
+                  <li class="list-group-item">
+                    <a href="">
+                      <span class="c-link__icon">
+                        <img
+                          src="../assets/icons/old-Document-Icon.svg"
+                          alt="House ICon"
+                        />
+                      </span>
+                      Lsitings
+                    </a>
+                  </li>
+                  <li class="list-group-item">
+                    <a href="">
+                      <span class="c-link__icon">
+                        <img
+                          src="../assets/icons/microphone-Icon.svg"
+                          alt="House ICon"
+                        /> </span
+                      >Podcasts
+                    </a>
+                  </li>
+                  <li class="list-group-item">
+                    <a href="">
+                      <span class="c-link__icon">
+                        <img
+                          src="../assets/icons/video-Camera-Icon.svg"
+                          alt="House ICon"
+                        /> </span
+                      >Videos</a
+                    >
+                  </li>
+                  <li class="list-group-item">
+                    <a href="">
+                      <span class="c-link__icon">
+                        <img
+                          src="../assets/icons/tag-Icon.svg"
+                          alt="House ICon"
+                        /> </span
+                      >Tags</a
+                    >
+                  </li>
+                  <li class="list-group-item">
+                    <a href="">
+                      <span class="c-link__icon">
+                        <img
+                          src="../assets/icons/spotligth-Icon.svg"
+                          alt="House ICon"
+                        /> </span
+                      >FAQ</a
+                    >
+                  </li>
+                  <li class="list-group-item">
+                    <a href="">
+                      <span class="c-link__icon">
+                        <img
+                          src="../assets/icons/color-Bags-Icon.svg"
+                          alt="House ICon"
+                        /> </span
+                      >Forem Shop</a
+                    >
+                  </li>
+                  <li class="list-group-item">
+                    <a href="">
+                      <span class="c-link__icon">
+                        <img
+                          src="../assets/icons/red-Heart-Icon.svg"
+                          alt="House ICon"
+                        /> </span
+                      >Sponsors</a
+                    >
+                  </li>
+                  <li class="list-group-item">
+                    <a href="">
+                      <span class="c-link__icon">
+                        <img
+                          src="../assets/icons/lgbt-Devto-Logo-Icon.svg"
+                          alt="House ICon"
+                        /> </span
+                      >About</a
+                    >
+                  </li>
+                  <li class="list-group-item">
+                    <a href="">
+                      <span class="c-link__icon">
+                        <img
+                          src="../assets/icons/trumpet-Icon.svg"
+                          alt="House ICon"
+                        /> </span
+                      >Contact</a
+                    >
+                  </li>
+                  <li class="list-group-item">
+                    <a href="">
+                      <span class="c-link__icon">
+                        <img
+                          src="../assets/icons/book-Icon.svg"
+                          alt="House ICon"
+                        /> </span
+                      >Guides</a
+                    >
+                  </li>
+                  <li class="list-group-item">
+                    <a href="">
+                      <span class="c-link__icon">
+                        <img
+                          src="../assets/icons/question-Emoji-Icon.svg"
+                          alt="House ICon"
+                        /> </span
+                      >Software comparisons</a
+                    >
+                  </li>
+                </ul>
+                <h5 class="bodySectionCanvasTitle ms-3 mt-3">Other</h5>
+                <ul class="list-group">
+                  <li class="list-group-item">
+                    <a href=""
+                      ><span class="c-link__icon">
+                        <img
+                          src="../assets/icons/like-Yellow-Hand-Icon.svg"
+                          alt="House ICon"
+                        />
+                      </span>
+                      Code of Conduct</a
+                    >
+                  </li>
+                  <li class="list-group-item">
+                    <a href=""
+                      ><span class="c-link__icon">
+                        <img
+                          src="../assets/icons/nerd-Emoji-Icon.svg"
+                          alt="House ICon"
+                        />
+                      </span>
+                      Privacy Policy</a
+                    >
+                  </li>
+                  <li class="list-group-item">
+                    <a href=""
+                      ><span class="c-link__icon">
+                        <img
+                          src="../assets/icons/surprised-Eyes-Icon.svg"
+                          alt="House ICon"
+                        />
+                      </span>
+                      Terms of Use</a
+                    >
+                  </li>
+                </ul>
+                <div class="offcanvas-body_networks d-flex gap-3 px-3 mt-3">
+                  <a href=""
+                    ><span
+                      ><img
+                        src="../assets/icons/tuwiter-Icon.svg"
+                        alt="" /></span
+                  ></a>
+                  <a href=""
+                    ><span
+                      ><img
+                        src="../assets/icons/facebock-Icon.svg"
+                        alt="" /></span
+                  ></a>
+                  <a href=""
+                    ><span
+                      ><img
+                        src="../assets/icons/github-Icon.svg"
+                        alt="" /></span
+                  ></a>
+                  <a href=""
+                    ><span
+                      ><img
+                        src="../assets/icons/instagram-Icon.svg"
+                        alt="" /></span
+                  ></a>
+                  <a href=""
+                    ><span
+                      ><img
+                        src="../assets/icons/twitch-Icon.svg"
+                        alt="" /></span
+                  ></a>
+                  <a href=""
+                    ><span
+                      ><img
+                        src="../assets/icons/mastodon-Icon.svg"
+                        alt="" /></span
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </aside>
+          <a class="navbar-brand" href="../index.html">
+            <img
+              src="https://dev-to-uploads.s3.amazonaws.com/uploads/logos/resized_logo_UQww2soKuUsjaOGNB38o.png"
+              alt="DEV Community Home"
+              width="30"
+              height="24"
+              class="devto-home-logo"
+            />
+          </a>
+          <div class="searchContainer d-none d-md-block">
+            <form class="searchContainer__searchForm d-flex" role="search">
+              <input type="hidden" />
+              <input
+                class="searchInput form-control border-0"
+                type="text"
+                placeholder="Search..."
+                aria-label="Search"
+              />
+              <button
+                id="buttonSearchForm"
+                class="buttonSearch"
+                type="submit"
+              >
+                <span
+                  ><svg
+                    viewBox="1 1 22 22"
+                    aria-hidden="true"
+                    class="svgLoupe"
+                    focusable="false"
+                  >
+                    <path
+                      d="m18.031 16.617 4.283 4.282-1.415 1.415-4.282-4.283A8.96 8.96 0 0 1 11 20c-4.968 0-9-4.032-9-9s4.032-9 9-9 9 4.032 9 9a8.96 8.96 0 0 1-1.969 5.617zm-2.006-.742A6.977 6.977 0 0 0 18 11c0-3.868-3.133-7-7-7-3.868 0-7 3.132-7 7 0 3.867 3.132 7 7 7a6.977 6.977 0 0 0 4.875-1.975l.15-.15z"
+                    ></path>
+                  </svg>
+                </span>
+              </button>
+            </form>
+          </div>
+          <div class="buttonsContainer d-flex align-items-center">
+            <a
+              class="searchLuopeMobileButton btn d-md-none"
+              data-bs-toggle="collapse"
+              href="#collapseExample"
+              role="button"
+              aria-expanded="false"
+              aria-controls="collapseExample"
+              ><span
+                ><img
+                  src="../assets/icons/loupe-Icon.svg"
+                  alt="Search loupe icon" /></span
+            ></a>
+            <span
+              class="createPost d-none d-md-block d-flex justify-content-center align-items-center"
+            >
+              <a href="../html/newPost.html" class="d-none d-md-block d-flex">Create Post</a>
+            </span>
+            <a href=""
+              ><span class="notifications px-1">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  role="img"
+                  aria-labelledby="aee3vtyno3ppruro0xmifyemrnaejm4u"
+                  class="crayons-icon"
+                >
+                  <title id="aee3vtyno3ppruro0xmifyemrnaejm4u">
+                    Notifications
+                  </title>
+                  <path
+                    d="M20 17h2v2H2v-2h2v-7a8 8 0 1116 0v7zm-2 0v-7a6 6 0 10-12 0v7h12zm-9 4h6v2H9v-2z"
+                  ></path>
+                </svg>
+              </span>
+            </a>
+            <div class="userSessionButton dropdown">
+              <button
+                class="buttonDropdown dropdown-toggle"
+                href="#"
+                type="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <span
+                  ><img
+                    src="https://res.cloudinary.com/practicaldev/image/fetch/s---VKDbeFc--/c_fill,f_auto,fl_progressive,h_90,q_auto,w_90/https://dev-to-uploads.s3.amazonaws.com/uploads/user/profile_image/900320/fa4e50b5-9242-45b5-b110-91d4dd6fbf7e.png"
+                    alt=""
+                /></span>
+              </button>
+              <ul
+                class="dropUserInfo dropdown-menu dropdown-menu-lg-end dropdown-menu-end"
+              >
+                <li>
+                  <a class="dropdown-item" href="#"
+                    ><b class="userLogedName">Jose Manuel Cabrera Rojas</b></a
+                  ><span class="userLogedIdentifier ps-3">@jmanuelcr</span>
+                </li>
+                <li><a class="dropdown-item" href="#">Dashboard</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Create Post</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Reading list</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Settings</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Sign Out</a>
+                </li>
+              </ul>
+            </div>
+            <div></div>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+    <main class="container position-relative">
+        <div class="row">
+            <asside class="asside-right col-md-2 d-none d-md-block">
+              <div class="reactions">
+                <div class="reactions__container">
+                  <div class="reactions__container--heart">
+                    <a href="#">
+                      <img src="../assets/icons/black-heart-Icon.svg">
+                      <p>79</p>
+                    </a>
+                  </div>
+                  <div class="reactions__container--comment">
+                    <a href="#">
+                      <img src="../assets/icons/black-Flat-Icon.svg">
+                      <p>16</p>
+                    </a>
+                  </div>
+                  <div class="reactions__container--save">
+                    <a href="#">
+                      <img src="../assets/icons/book-Icon.svg">
+                      <p>100</p>
+                    </a>
+                  </div>
+                  <div class="reactions__container--dots">
+                      <a href="#"><img src="../assets/img/icons8-elipsis-28.webp"></a>
+                  </div>
+                </div>
+              </div>
+            </asside>
+            <section id="postView" class="col-12 col-md-10 col-lg-6">
+            </section>
+            <asside class=" asside-left col-lg-4 d-none d-lg-block">
+                <div class="cardUserFollow">
+                  <div class="cardUserDate">
+                    <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--DQmJ_XZV--/c_fill,f_auto,fl_progressive,h_90,q_auto,w_90/https://dev-to-uploads.s3.amazonaws.com/uploads/user/profile_image/826332/224dd80d-2524-4499-b730-515327a6af1a.jpg" class="cardUserDate__image" alt="...">
+                    <a class="cardUserDate__name">Ernane Ferreira</a>
+                  </div>
+                    <div class="cardUserFollow__body">
+                      <button class="cardUserFollow__body--btn btn-primary">Follow</button>
+                      <p class="cardUserFollow__body--description">A big dreamer, technology lover and software development enthusiast.</p>
+                      <div class="cardUserFollow__body--informationUser">
+                            <span class="cardUserFollow__body--datesTitle">LOCATION</span>
+                            <p class="cardUserFollow__body--datesText">Rio Grande do Norte, Brazil</p>
+                            <span class="cardUserFollow__body--datesTitle">EDUCATION</span>
+                            <p class="cardUserFollow__body--datesText">University student of the interdisciplinary bachelor's degree in Science and Technology</p>
+                            <span class="cardUserFollow__body--datesTitle">PRONOUNS</span>
+                            <p class="cardUserFollow__body--datesText">Ele/dele</p>
+                            <span class="cardUserFollow__body--datesTitle">WORK</span>
+                            <p class="cardUserFollow__body--datesText">Developer at Real Seguro Viagem</p>
+                            <span class="cardUserFollow__body--datesTitle">JOINED</span>
+                            <p class="cardUserFollow__body--datesText">Mar 6, 2022</p>
+                    </div>
+                    </div>
+                </div>
+                <div class="cardMoreUser">
+                    <ul class="cardMoreUser__list list-group list-group-flush">
+                      <li class="cardMoreUser__list--title list-group-item">More from <a href="">Ernane Ferreira</a></li>
+                      <li class="cardMoreUser__list--text list-group-item"> <a href="">[pt-br] Guia rápido e prático dos principais comandos git</a><br>
+                        <span>#</span>git
+                        <span>#</span>gitlab
+                        <span>#</span>github
+                        <span>#</span>codequality
+                      </li>
+                    </ul>
+                </div>
+                <div class="cardCategory">
+                  <div class="cardCategory__body">
+                    <div class="cardCategory__body--link">
+                      <p>DEV Community</p>
+                      <a href="" name="btn-community" type="button" value="">
+                      <img src="/assets/img/icons8-elipsis-28.webp" alt="">
+                      </a>
+                    </div>
+                    <p class="cardCategory__body--title card-title">👋 Do you have an org account on DEV?</p>
+                    <p class="cardCategory__body--description card-title">
+                        Maximize the impact of your presence on DEV with our new Pro Tools suite.
+                    </p><br>
+                    <p class="cardCategory__body--subTitle card-title">Get access to:</p><br>
+                    <ul class="cardCategory__body--list card-title">
+                      <li>Advanced analytics and insights</li>
+                      <li>The opportunity to use <b>this space</b> next to your own posts to help your readers engage more deeply with your message.</li>
+                    </ul><br>
+                    <a href="#" class="cardCategory__body--btn btn btn-primary">Try Pro Tools for Free</a>
+                    </div>
+                  </div>  
+            </asside>
+        </div>
+    </main>
+    <footer class="container-fluid text-center text-md-center mb-2">
+      <div class="container-footer row text-center text-md-center">
+        <div class="container-footer__DEV col-md-12 col-lg-12">
+          <p>
+            <a href="">Dev community</a>
+            — A constructive and inclusive social network for software
+            developers. With you every step of your journey.
+          </p>
+          <ul class="container-footer__DEV--li listItem">
+            <li><a href="">Home</a><span class="circle"></span></li>
+            <li><a href="">Listings</a><span class="circle"></span></li>
+            <li><a href="">Podcasts</a><span class="circle"></span></li>
+            <li><a href="">Videos</a><span class="circle"></span></li>
+            <li><a href="">Tags</a><span class="circle"></span></li>
+            <li><a href="">FAQ</a><span class="circle"></span></li>
+            <li><a href="">Forem Shop</a><span class="circle"></span></li>
+            <li><a href="">Sponsors</a><span class="circle"></span></li>
+            <li><a href="">About</a><span class="circle"></span></li>
+            <li><a href="">Contact</a><span class="circle"></span></li>
+            <li><a href="">Guides</a><span class="circle"></span></li>
+            <li><a href="">Software Comparisons</a></li>
+          </ul>
+          <ul class="container-footer__DEV--list2 listItem">
+            <li><a href="">Code of conduct</a><span class="circle"></span></li>
+            <li><a href="">Privacy Policy</a><span class="circle"></span></li>
+            <li><a href="">Terms of use</a></li>
+          </ul>
+          <div class="container-footer__DEV--li3">
+            <p>
+              Buil on
+              <a href="">Forem</a>
+              — the
+              <a href="">open source</a>
+              software that powers
+              <a href="">DEV</a>
+              and other inclusive comminities
+            </p>
+            <p>
+              Made with love and
+              <a href="">Ruby on Rails.</a>
+              Dev Community © 2016 - 2023
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <script src="../js/postView.js" type="module"></script>
+</body>
+</html>

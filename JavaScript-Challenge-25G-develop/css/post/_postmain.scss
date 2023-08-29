@@ -1,0 +1,247 @@
+@use"../variables";
+
+html{
+    font-family: variables.$sans-serif;
+}
+.user-data-space-post {
+    margin-left: 2rem;
+    align-items: center;
+    @media screen and (max-width:variables.$small) {
+        margin-left: 0rem;
+        align-items: start;
+    }
+    @media screen and (max-width:variables.$laptop) {
+        margin-left: 0rem;
+    }
+    &__name {
+        display: inline-block;
+        margin-left: 1rem;
+        justify-content: start;
+    }
+}
+
+.emojis-colection {
+    &__icons {
+        margin-left: 2.5rem;
+        display: flex;
+        flex-direction: row;
+        @media screen and (max-width:variables.$small) {
+            flex-wrap: wrap;
+            margin-top: 0;
+            gap: .5rem;
+            margin-left: 0rem;
+        }
+        @media screen and (max-width:variables.$laptop) {
+            flex-wrap: wrap;
+            margin-top: 0;
+            gap: .5rem;
+            margin-left: 0rem;
+        }
+        span {
+            display: flex;
+            margin-right: 1.5rem;
+            height: 25px;
+            img {
+                width: 25px;
+            }
+        }
+    }
+    h1 {
+        display: flex;
+        a{
+            text-decoration: none;
+            color: black;
+            margin-left: 2.5rem;
+            width: 100%;
+            font-weight: variables.$font-700;
+            @media screen and (max-width:variables.$laptop) {
+                flex-wrap: wrap;
+                margin-left: 0rem;
+            }
+        }
+    }
+    &__tags {
+        display: flex;
+        gap: 1rem;
+        margin-left: 2.5rem;
+        @media screen and (max-width:variables.$laptop) {
+            flex-wrap: wrap;
+            margin-top: 0;
+            gap: .5rem;
+            margin-left: 0rem;
+        }
+        &--blue {
+            height: 1.8rem;
+            text-decoration: none;
+            &:hover {
+                background-color: rgba(145, 200, 255, 0.20) ;
+                border-radius: .5rem;
+            }
+            p{
+                color: black;
+                span {
+                    color: variables.$blueKing;
+                }
+            }
+        }
+        &--pink {
+            height: 1.8rem;
+            text-decoration: none;
+            &:hover {
+                background-color: rgba(255, 132, 239, 0.20) ;
+                border-radius: .5rem;
+            }
+            p{
+                color: black;
+                span {
+                    color: variables.$pink;
+                }
+            }
+        }
+        &--purple {
+            height: 1.8rem;
+            text-decoration: none;
+            &:hover {
+                background-color: rgba(187, 78, 245, 0.20) ;
+                border-radius: .5rem;
+            }
+            p{
+                color: black;
+                span {
+                    color: variables.$purple;
+                }
+            }
+        }
+        &--green {
+            height: 1.8rem;
+            text-decoration: none;
+            &:hover {
+                background-color: rgba(48, 147, 107, 0.20);
+                border-radius: .5rem;
+            }
+            p{
+                color: black;
+                span {
+                    color: variables.$green;
+                }
+            }
+        }
+    }
+}
+.comment-section {
+    .article__contentMain {
+        padding-top:variables.$size-large-x ;
+        padding-bottom:variables.$size-large-x;
+        padding-left:variables.$size-xx;
+        padding-right:variables.$size-xx;
+        @media screen and (max-width:variables.$laptop) {
+            flex-wrap: wrap;
+            padding: 0rem;;
+        }
+        p{
+            color: variables.$blackGreey;
+            font-size:variables.$size-standar;
+            padding: 0;
+            margin-bottom:variables.$size-large;
+        }
+        h3{
+            margin-bottom:variables.$padding-small-x;
+            margin-top:variables.$padding-small-x;
+            padding: 0;
+            line-height:variables.$percentage-mfull;
+            a{
+                color:variables.$blackGreey ;
+                font-size:variables.$size-medium-x;
+                text-decoration: none;
+                font-weight:variables.$font-700;
+            }
+        }
+        img{
+            border-radius:variables.$borderStandar ;
+            margin-bottom: variables.$size-standar;
+            @media screen and (max-width:variables.$laptop) {
+                width: variables.$percentage-full;
+            }
+        }
+    }
+}
+
+.reactions {
+    padding-top: 4.50rem;
+    &__container {
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        gap: 1.5rem;
+        &--heart {
+            a {
+                text-decoration: none;
+                img {
+                    width: 30px;
+                }
+                p {
+                    text-align: center;
+                    color: black;
+                } 
+            } 
+        }
+        &--comment {
+            a {
+                text-decoration: none;
+                img {
+                    width: 30px;
+                }
+                p {
+                    text-align: center;
+                    color: black;
+                }  
+            }
+        }
+        &--save {
+            a {
+                text-decoration: none;
+                img {
+                    width: 30px;
+                }
+                p {
+                    text-align: center;
+                    color: black;
+                }  
+            }
+        }
+        &--dots {
+            a {
+                text-decoration: none;
+                img {
+                    width: 25px;
+                }
+                p {
+                    text-align: center;
+                    color: black;
+                }  
+            }
+        }
+    }
+}
+
+.newParamsDiv {
+    gap:3rem;
+    width: fit-content;
+    margin-left: 7%;
+    @media screen and (max-width:variables.$laptop) {
+        flex-wrap: wrap;
+        row-gap: 0;
+    }
+    span {
+        display: flex;
+        align-items: center;
+        gap: .5rem; 
+            img {
+                width: 30px;
+            }
+            p {
+                margin-top: .5rem;
+            }
+    }
+}
+

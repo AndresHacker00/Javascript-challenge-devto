@@ -1,0 +1,55 @@
+@use '../variables';
+    
+.container-footer {
+    font-size: .9rem;
+    &__DEV {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 1.5rem;
+        justify-content: center;
+        p{
+            a{
+                color: variables.$blueKing;
+                text-decoration: none;
+                font-weight: variables.$font-600;
+            }
+        }
+        &--li {
+            display: flex;
+            justify-content: center;
+            row-gap: 0;
+            column-gap: 3rem;
+            flex-wrap: wrap;
+            font-size: 14px;
+            padding: 0;
+            margin: 0;
+            li {
+                a {
+                    text-decoration: none;
+                    color: variables.$blueKing;
+                }
+            }
+        }
+        &--list2 {
+            display: flex;
+            justify-content: center;
+            row-gap: 0;
+            column-gap: 3rem;
+            flex-wrap: wrap;
+            margin: 0rem;
+            font-size: 14px;
+            a{
+                text-decoration: none;
+                    color: variables.$blueKing;
+            }
+        }
+        &--li3 {
+            margin-top: 1rem;
+            p {
+                gap: 0;
+                margin-bottom: 0;
+            }
+            
+        }
+    }
+}

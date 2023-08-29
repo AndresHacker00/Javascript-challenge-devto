@@ -1,0 +1,1398 @@
+.container {
+  background-color: #f5f5f5;
+}
+
+.cardCommunity {
+  background-color: #ffffff;
+  border-radius: 0.5rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  padding: 0.8rem;
+  padding-bottom: 0.8rem;
+}
+.cardCommunity__head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #828282;
+}
+.cardCommunity__head--title {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #595959;
+}
+.cardCommunity__head--btnCommunity {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.cardCommunity__head--btnCommunity--icon {
+  padding-left: 0.3rem;
+  width: 50%;
+}
+.cardCommunity__image {
+  max-width: 100%;
+  padding-top: 0.8rem;
+  padding-left: 0.3rem;
+  padding-right: 0.3rem;
+  padding-bottom: 0.3rem;
+}
+.cardCommunity__body--subTitle {
+  color: rgb(59, 73, 223);
+  font-size: 1.25rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-weight: 700;
+  margin: 0;
+}
+.cardCommunity__body--text {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  color: #404040;
+  font-size: 1rem;
+  padding: 0;
+  margin-bottom: 0.8rem;
+}
+
+.cardListings {
+  background-color: #ffffff;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  margin-top: 1rem;
+  padding: 0.3rem;
+}
+.cardListings__header {
+  border-bottom: solid 1px rgba(233, 231, 231, 0.9098039216);
+  padding: 0.3rem;
+}
+.cardListings__header--Title {
+  color: #242424;
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+.cardListings__header--link {
+  color: rgb(59, 73, 223);
+  font-size: 0.9rem;
+  text-decoration: none;
+}
+.cardListings__list {
+  border-bottom: solid 1px rgba(233, 231, 231, 0.9098039216);
+  padding: 0.6rem;
+}
+.cardListings__list--trend {
+  color: #404040;
+  font-size: 1rem;
+  text-decoration: none;
+}
+.cardListings__list--trend-text {
+  color: #717171;
+  font-size: 0.9rem;
+  margin: 0;
+  text-decoration: none;
+}
+
+.btnListing {
+  background-color: #ffffff;
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+  margin: 0;
+}
+.btnListing__link {
+  display: flex;
+  color: #404040;
+  font-size: 1rem;
+  padding-left: 30%;
+  padding-right: 0.8rem;
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+  text-decoration: none;
+}
+
+.cardDiscuss {
+  background-color: #ffffff;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  margin-top: 1rem;
+  padding: 0.3rem;
+  border-radius: 0.5rem;
+}
+.cardDiscuss__header {
+  border-bottom: solid 1px rgba(233, 231, 231, 0.9098039216);
+  padding: 0.3rem;
+}
+.cardDiscuss__header--title {
+  color: #242424;
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+.cardDiscuss__list {
+  border-bottom: solid 1px rgba(233, 231, 231, 0.9098039216);
+  padding: 0.3rem;
+}
+.cardDiscuss__list--relevant {
+  color: #404040;
+  font-size: 1rem;
+  text-decoration: none;
+}
+.cardDiscuss__list--relevantText {
+  color: #717171;
+  font-size: 0.9rem;
+  margin: 0;
+  text-decoration: none;
+}
+
+.listingsTags {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  margin: 0.5rem 0rem;
+}
+.listingsTags .buttonTag {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: black;
+}
+
+html,
+body {
+  background-color: #f5f5f5;
+}
+
+.navbar {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+.navbar .custom-container {
+  height: 3.75rem;
+  width: 100%;
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+.navbar .custom-container .burguerButtonSpan .burguerbutton {
+  background-color: transparent;
+  border: none;
+}
+.navbar .custom-container .emergentOffCanvas .offcanvas {
+  max-width: 350px;
+}
+.navbar .custom-container .emergentOffCanvas .offcanvas .offcanvas-header {
+  word-break: break-word;
+  font-weight: 700;
+  font-size: 1.125rem;
+}
+.navbar .custom-container .emergentOffCanvas .offcanvas .offcanvas-body {
+  padding-left: 0px;
+  padding-top: 0px;
+}
+.navbar .custom-container .emergentOffCanvas .offcanvas .offcanvas-body h5 {
+  font-size: 1rem;
+  font-weight: 700;
+}
+.navbar .custom-container .emergentOffCanvas .offcanvas .offcanvas-body .list-group .list-group-item {
+  border: none;
+}
+.navbar .custom-container .emergentOffCanvas .offcanvas .offcanvas-body .list-group .list-group-item a {
+  color: black;
+  cursor: pointer;
+  text-decoration: none;
+}
+.navbar .custom-container .emergentOffCanvas .offcanvas .offcanvas-body .list-group .list-group-item a:hover {
+  color: rgb(59, 73, 223);
+}
+.navbar .custom-container .emergentOffCanvas .offcanvas .offcanvas-body .list-group .list-group-item a img {
+  height: 24px;
+}
+.navbar .custom-container .emergentOffCanvas .offcanvas .offcanvas-body .offcanvas-body_networks a span img {
+  height: 1rem;
+}
+.navbar .custom-container .navbar-brand .devto-home-logo {
+  display: inline-block;
+  height: 2.75rem;
+  max-width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  outline: 0px;
+  vertical-align: middle;
+  width: auto;
+}
+.navbar .custom-container .searchContainer {
+  border-radius: 8px;
+  border: 2px solid #e3e3e3;
+  flex: 1 1 0%;
+  height: 2.5rem;
+  max-width: 22rem;
+  position: relative;
+}
+.navbar .custom-container .searchContainer__searchForm .searchInput {
+  font-family: inherit;
+  font-weight: 400;
+  outline: 0px;
+  padding: 0.375rem 0.5rem;
+}
+.navbar .custom-container .searchContainer__searchForm .buttonSearch {
+  background-color: transparent;
+  border-radius: 4px;
+  border: none;
+  height: 100%;
+  padding: 0px 0.5rem;
+  position: absolute;
+  right: 0px;
+  width: 40px;
+}
+.navbar .custom-container .searchContainer__searchForm .buttonSearch:hover {
+  background-color: rgba(44, 107, 224, 0.1725490196);
+}
+.navbar .custom-container .searchContainer__searchForm .buttonSearch:hover svg {
+  color: rgba(46, 106, 217, 0.8980392157);
+}
+.navbar .custom-container .searchContainer__searchForm .buttonSearch span svg {
+  bottom: 2px;
+  height: 22px;
+  left: 1px;
+  position: relative;
+  width: 22px;
+}
+@media screen and (min-width: 992px) {
+  .navbar .custom-container .searchContainer {
+    max-width: 25.5rem;
+  }
+}
+.navbar .custom-container .buttonsContainer {
+  height: 100%;
+  margin-left: auto;
+}
+.navbar .custom-container .buttonsContainer .searchLuopeMobileButton {
+  margin: 0px 0.5rem;
+}
+.navbar .custom-container .buttonsContainer .searchLuopeMobileButton:hover {
+  background-color: rgba(121, 132, 255, 0.248);
+  border: 1px solid rgba(121, 132, 255, 0.248);
+}
+.navbar .custom-container .buttonsContainer .searchLuopeMobileButton span img {
+  position: relative;
+  bottom: 1px;
+  height: 1.675rem;
+}
+.navbar .custom-container .buttonsContainer .createPost {
+  border: 1px solid rgb(47, 58, 178);
+  border-radius: 0.375rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  height: 2.4rem;
+  margin-right: 0.5rem;
+  padding: calc(0.5rem - 1px) calc(1rem - 1px);
+}
+.navbar .custom-container .buttonsContainer .createPost:hover {
+  background-color: rgb(59, 73, 223);
+}
+.navbar .custom-container .buttonsContainer .createPost:hover a {
+  color: rgb(254, 254, 254);
+  text-decoration: underline;
+}
+.navbar .custom-container .buttonsContainer .createPost a {
+  font-size: 1rem;
+  font-weight: 600;
+  white-space: nowrap;
+  text-decoration: none;
+  z-index: 1;
+  color: rgb(116, 126, 232);
+}
+.navbar .custom-container .buttonsContainer .notifications {
+  color: black;
+  font-size: 2rem;
+}
+.navbar .custom-container .buttonsContainer .notifications svg {
+  bottom: 6px;
+  height: 1.5rem;
+  position: relative;
+  width: 2rem;
+}
+.navbar .custom-container .buttonsContainer .userSessionButton .buttonDropdown {
+  margin-right: 1rem;
+  border-radius: 50%;
+  width: 2.5rem;
+  height: 2.5rem;
+  background-color: transparent;
+  border: none;
+}
+.navbar .custom-container .buttonsContainer .userSessionButton .buttonDropdown span img {
+  border-radius: 50%;
+  width: 2.25rem;
+  height: 2.25rem;
+}
+.navbar .custom-container .buttonsContainer .userSessionButton .dropUserInfo {
+  width: 320px;
+  padding: 1rem 0.5rem;
+}
+.navbar .custom-container .buttonsContainer .userSessionButton .dropUserInfo > li {
+  margin: 4px 0px;
+}
+.navbar .custom-container .buttonsContainer .userSessionButton .dropUserInfo li:first-child {
+  border-bottom: 1px solid rgba(128, 128, 128, 0.533);
+  padding-bottom: 0.5rem;
+}
+.navbar .custom-container .buttonsContainer .userSessionButton .dropUserInfo li:last-child {
+  padding-top: 0.5rem;
+  border-top: 1px solid rgba(128, 128, 128, 0.533);
+}
+.navbar .custom-container .buttonsContainer .userSessionButton .dropUserInfo li .userLogedIdentifier {
+  position: relative;
+  bottom: 0.5rem;
+}
+@media screen and (min-width: 375px) {
+  .navbar .custom-container .buttonsContainer .userSessionButton .dropUserInfo {
+    width: 375px;
+  }
+}
+@media screen and (min-width: 425px) {
+  .navbar .custom-container .buttonsContainer .userSessionButton .dropUserInfo {
+    width: 425px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .navbar .custom-container .buttonsContainer .userSessionButton .dropUserInfo {
+    margin-right: -0.5rem;
+    max-width: 260px;
+  }
+}
+
+.dropdown-toggle::after {
+  display: none;
+}
+
+.newpostWrapper {
+  background-color: rgb(249, 249, 249);
+}
+.newpostWrapper .createNavWrapper .titleAndBrandWrapper .imgBrand a img {
+  height: 2.75rem;
+  max-width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  outline: 0px;
+  vertical-align: middle;
+  width: auto;
+}
+.newpostWrapper .createNavWrapper .close .closeButton {
+  border: none;
+  background-color: transparent;
+  border-radius: 8px;
+}
+.newpostWrapper .createNavWrapper .close .closeButton:hover {
+  background-color: rgba(121, 132, 255, 0.248);
+}
+.newpostWrapper .createNavWrapper .close .closeButton span a {
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+.description__text {
+  margin-top: 8rem;
+  margin-left: 1rem;
+}
+.description__text h2 {
+  font-weight: 700;
+}
+
+.cardImgTop {
+  max-height: 15rem;
+  width: auto;
+}
+
+.container {
+  background-color: #f5f5f5;
+  padding-top: 1rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.cardUserFollow {
+  background-color: #ffffff;
+  border-radius: 0.5rem;
+  border-top: 2rem solid black;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+.cardUserFollow .cardUserDate {
+  align-items: end;
+  display: flex;
+  gap: 5px;
+  position: absolute;
+  top: 1.75rem;
+}
+.cardUserFollow .cardUserDate__image {
+  border-radius: 50%;
+  max-width: 20%;
+}
+.cardUserFollow .cardUserDate__name {
+  color: #404040;
+  font-size: 1.25rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+.cardUserFollow__body {
+  margin-top: 1.75rem;
+}
+.cardUserFollow__body--btn {
+  background-color: #3B49DF;
+  border-radius: 0.5rem;
+  border-style: none;
+  color: #f9f9f9;
+  display: flex;
+  font-size: 0.9rem;
+  font-weight: 600;
+  justify-content: center;
+  padding: 0.5rem;
+  text-decoration: none;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+.cardUserFollow__body--description {
+  font-size: 0.9rem;
+  color: #575757;
+  margin-bottom: 1rem;
+}
+.cardUserFollow__body--informationUser {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  list-style: none;
+}
+.cardUserFollow__body span {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: #525252;
+}
+.cardUserFollow__body p {
+  font-size: 0.8rem;
+  color: #404040;
+}
+
+.cardMoreUser__list {
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+}
+.cardMoreUser__list--title {
+  color: #404040;
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+.cardMoreUser__list--title a {
+  color: #3B49DF;
+  text-decoration: none;
+}
+.cardMoreUser__list--text {
+  font-size: 0.8rem;
+  color: #717171;
+}
+.cardMoreUser__list--text a {
+  color: #404040;
+  font-size: 1rem;
+  text-decoration: none;
+}
+.cardMoreUser__list--text span {
+  font-size: 0.8rem;
+  color: #717171;
+}
+
+.asside-left {
+  height: 1800px;
+}
+
+.cardCategory {
+  background-color: #ffffff;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  position: sticky;
+  top: 1rem;
+}
+.cardCategory__body {
+  background-color: #ffffff;
+}
+.cardCategory__body--link {
+  display: flex;
+  color: #595959;
+  font-size: 0.9rem;
+  justify-content: space-between;
+}
+.cardCategory__body--link img {
+  width: 50%;
+}
+.cardCategory__body--title {
+  color: #404040;
+  font-size: 1.3rem;
+}
+.cardCategory__body--description {
+  color: #404040;
+  font-size: 1rem;
+}
+.cardCategory__body--subTitle {
+  color: #404040;
+  font-size: 1rem;
+}
+.cardCategory__body--list {
+  color: #404040;
+  font-size: 1rem;
+}
+.cardCategory__body--btn {
+  background-color: transparent;
+  border: solid 1px #3B49DF;
+  display: flex;
+  color: #3B49DF;
+  font-size: 1rem;
+  justify-content: center;
+}
+
+.pills-nav-container {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  display: flex;
+  justify-content: start;
+}
+.pills-nav-container__ulList--bold:hover {
+  background-color: white;
+  border-radius: 0.5rem;
+}
+.pills-nav-container__ulList--bold a {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-weight: bolder;
+  font-size: 1.125rem;
+  color: black;
+}
+.pills-nav-container__ulList--lighter:hover {
+  background-color: white;
+  border-radius: 0.5rem;
+}
+.pills-nav-container__ulList--lighter a {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 1.125rem;
+  color: black;
+  font-weight: 200;
+}
+
+.user-data-space {
+  padding-left: 0.5rem;
+  padding-top: 1.25rem;
+  display: flex;
+}
+.user-data-space__mini {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+.user-data-space__mini a img {
+  width: 3.2rem;
+  height: 3rem;
+  margin-bottom: 0.9rem;
+}
+.user-data-space__name {
+  padding-left: 0.2rem;
+}
+.user-data-space__name--bold {
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
+}
+.user-data-space__name--bold p {
+  font-size: 0.875rem;
+  margin: 0;
+}
+.user-data-space__name--lighter {
+  padding-top: 1rem;
+  text-decoration: none;
+  color: black;
+}
+.user-data-space__name--lighter p {
+  font-size: 0.75rem;
+  margin: 0;
+}
+.user-data-space__tags {
+  margin-left: 1rem;
+}
+.user-data-space__tags h2 {
+  font-weight: bolder;
+  margin-left: 2rem;
+  margin-bottom: 1rem;
+  font-size: 18px;
+}
+@media screen and (max-width: 1024px) {
+  .user-data-space__tags h2 {
+    flex-wrap: wrap;
+    margin-left: 0;
+    padding-left: 0;
+  }
+}
+.user-data-space__tags h2 a {
+  text-decoration: none;
+  color: #171717;
+  font-size: 1.875rem;
+}
+.user-data-space__tags h2 a:hover {
+  color: rgb(47, 58, 178);
+}
+.user-data-space__tags--lighter {
+  display: flex;
+  gap: 1rem;
+  width: 70%;
+}
+@media screen and (max-width: 425px) {
+  .user-data-space__tags--lighter {
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+}
+.user-data-space__tags--lighter ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  gap: 0.75rem;
+  padding-left: 1rem;
+}
+@media screen and (max-width: 1024px) {
+  .user-data-space__tags--lighter ul {
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-left: 0;
+    padding-left: 0;
+  }
+}
+.user-data-space__tags--lighter a {
+  font-weight: lighter;
+  text-decoration: none;
+  color: #171717;
+}
+.user-data-space__tags--lighter a p {
+  margin: 0;
+  font-size: 14px;
+}
+.user-data-space__tags--lighter a p:hover {
+  background-color: #f5f5f5;
+  border-radius: 0.4rem;
+}
+.user-data-space__tags--emojis {
+  display: flex;
+  margin-top: 0.5rem;
+  justify-content: space-between;
+}
+
+.emojisReaction {
+  align-items: center;
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+}
+.emojisReaction__icons {
+  display: flex;
+}
+.emojisReaction__icons:hover {
+  background-color: #f5f5f5;
+  border-radius: 0.4rem;
+}
+.emojisReaction__icons a {
+  text-decoration: none;
+  color: #171717;
+  display: flex;
+  gap: 0.25rem;
+}
+.emojisReaction__icons a img {
+  width: 1.25rem;
+}
+@media screen and (max-width: 1024px) {
+  .emojisReaction__icons a img {
+    width: 1rem;
+    margin-left: 0rem;
+  }
+}
+.emojisReaction__icons a span {
+  margin-left: 0px;
+  margin-top: 1.1rem;
+}
+.emojisReaction__icons a span p {
+  font-size: 0.875rem;
+  margin: 0;
+  padding-bottom: 0.875rem;
+}
+@media screen and (max-width: 1400px) {
+  .emojisReaction__icons a span p {
+    display: none;
+  }
+}
+.emojisReaction__comments {
+  margin-left: 0.5rem;
+  position: relative;
+  top: 0.2rem;
+}
+.emojisReaction__comments a {
+  display: flex;
+  align-items: end;
+  text-decoration: none;
+  color: #171717;
+}
+@media secreen and (max-width: 310px) {
+  .emojisReaction__comments a {
+    flex-direction: column;
+  }
+}
+.emojisReaction__comments a:hover {
+  background-color: #f5f5f5;
+  border-radius: 0.4rem;
+}
+.emojisReaction__comments a img {
+  width: 1.5rem;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin-top: 1.3rem;
+}
+.emojisReaction__comments a p {
+  font-size: 0.87rem;
+  margin: 0;
+  margin-top: 0.5rem;
+}
+@media screen and (max-width: 425px) {
+  .emojisReaction__comments a p {
+    align-items: center;
+  }
+}
+
+.minutes-read {
+  padding-top: 0.2rem;
+  padding-left: 7rem;
+  display: flex;
+  align-items: end;
+}
+@media screen and (max-width: 1194px) {
+  .minutes-read {
+    padding-left: 2rem;
+  }
+}
+.minutes-read__anc {
+  display: flex;
+  text-decoration: none;
+  color: #171717;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+  padding-top: 0.8rem;
+}
+@media screen and (max-width: 425px) {
+  .minutes-read__anc p {
+    display: none;
+  }
+}
+.minutes-read img {
+  position: relative;
+  bottom: 0.2rem;
+  height: 1.5rem;
+  width: 1.5rem;
+}
+.minutes-read img:hover {
+  background-color: rgb(116, 126, 232);
+  border-radius: 0.4rem;
+  border-width: 1rem;
+}
+@media screen and (max-width: 500px) {
+  .minutes-read img {
+    display: flex;
+    justify-content: start;
+    padding-left: 0;
+  }
+}
+
+.comment-section {
+  margin-top: 1rem;
+  width: -moz-fit-content;
+  width: fit-content;
+  display: flex;
+}
+.comment-section__picture img {
+  width: 2rem;
+  margin-top: 0.5rem;
+}
+.comment-section__rectangle {
+  margin-left: 1rem;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  background: #f5f5f5;
+  border-radius: 1rem;
+}
+.comment-section__rectangle--username a {
+  display: flex;
+  gap: 0.5rem;
+  text-decoration: none;
+  color: #171717;
+}
+.comment-section__rectangle--comment a {
+  text-decoration: none;
+}
+.comment-section__rectangle--comment a p {
+  color: #171717;
+}
+
+.searchContainer {
+  border-radius: 8px;
+  border: 2px solid #e3e3e3;
+  flex: 1 1 0%;
+  height: 2.5rem;
+  max-width: 25.5rem;
+  position: relative;
+}
+.searchContainer__searchForm .searchInput {
+  font-family: inherit;
+  font-weight: 400;
+  outline: 0px;
+  padding: 0.375rem 0.5rem;
+}
+.searchContainer__searchForm .buttonSearch {
+  background-color: transparent;
+  border-radius: 4px;
+  border: none;
+  height: 100%;
+  padding: 0px 0.5rem;
+  position: absolute;
+  right: 0px;
+  width: 40px;
+}
+.searchContainer__searchForm .buttonSearch:hover {
+  background-color: rgba(44, 107, 224, 0.1725490196);
+}
+.searchContainer__searchForm .buttonSearch:hover svg {
+  color: rgba(46, 106, 217, 0.8980392157);
+}
+.searchContainer__searchForm .buttonSearch span svg {
+  bottom: 2px;
+  height: 22px;
+  left: 1px;
+  position: relative;
+  width: 22px;
+}
+
+.anchorsFinals {
+  text-decoration: none;
+}
+
+.titleAnchor {
+  text-decoration: none;
+  color: rgb(64, 64, 64);
+}
+
+.infoWrapper {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.commentIcon {
+  width: 1rem;
+  height: auto;
+}
+
+.reactionsContainer {
+  padding-left: 1.25rem;
+  position: relative;
+  bottom: 0.5rem;
+  height: 3rem;
+  justify-content: start;
+}
+.reactionsContainer .emojisReaction__comments {
+  height: 2.5rem;
+}
+@media screen and (min-width: 1100px) {
+  .reactionsContainer .emojisReaction__comments .text-container p span {
+    display: none;
+  }
+}
+.reactionsContainer .user-data-space__tags--emojis .emojisReaction .emojisReaction__icons {
+  padding-top: 0.5rem;
+}
+.reactionsContainer .user-data-space__tags--emojis .emojisReaction .emojisReaction__icons .iconsContainer {
+  width: -moz-fit-content;
+  width: fit-content;
+  height: 2.5rem;
+}
+.reactionsContainer .user-data-space__tags--emojis .emojisReaction .emojisReaction__icons .iconsContainer .reactionCount {
+  margin-top: 0.7rem;
+}
+
+.cardImg {
+  -o-object-fit: cover;
+     object-fit: cover;
+  max-height: 18rem;
+}
+
+.container-footer {
+  font-size: 0.9rem;
+}
+.container-footer__DEV {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1.5rem;
+  justify-content: center;
+}
+.container-footer__DEV p a {
+  color: #3B49DF;
+  text-decoration: none;
+  font-weight: 600;
+}
+.container-footer__DEV--li {
+  display: flex;
+  justify-content: center;
+  row-gap: 0;
+  -moz-column-gap: 3rem;
+       column-gap: 3rem;
+  flex-wrap: wrap;
+  font-size: 14px;
+  padding: 0;
+  margin: 0;
+}
+.container-footer__DEV--li li a {
+  text-decoration: none;
+  color: #3B49DF;
+}
+.container-footer__DEV--list2 {
+  display: flex;
+  justify-content: center;
+  row-gap: 0;
+  -moz-column-gap: 3rem;
+       column-gap: 3rem;
+  flex-wrap: wrap;
+  margin: 0rem;
+  font-size: 14px;
+}
+.container-footer__DEV--list2 a {
+  text-decoration: none;
+  color: #3B49DF;
+}
+.container-footer__DEV--li3 {
+  margin-top: 1rem;
+}
+.container-footer__DEV--li3 p {
+  gap: 0;
+  margin-bottom: 0;
+}
+
+html {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.user-data-space-post {
+  margin-left: 2rem;
+  align-items: center;
+}
+@media screen and (max-width: 425px) {
+  .user-data-space-post {
+    margin-left: 0rem;
+    align-items: start;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .user-data-space-post {
+    margin-left: 0rem;
+  }
+}
+.user-data-space-post__name {
+  display: inline-block;
+  margin-left: 1rem;
+  justify-content: start;
+}
+
+.emojis-colection__icons {
+  margin-left: 2.5rem;
+  display: flex;
+  flex-direction: row;
+}
+@media screen and (max-width: 425px) {
+  .emojis-colection__icons {
+    flex-wrap: wrap;
+    margin-top: 0;
+    gap: 0.5rem;
+    margin-left: 0rem;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .emojis-colection__icons {
+    flex-wrap: wrap;
+    margin-top: 0;
+    gap: 0.5rem;
+    margin-left: 0rem;
+  }
+}
+.emojis-colection__icons span {
+  display: flex;
+  margin-right: 1.5rem;
+  height: 25px;
+}
+.emojis-colection__icons span img {
+  width: 25px;
+}
+.emojis-colection h1 {
+  display: flex;
+}
+.emojis-colection h1 a {
+  text-decoration: none;
+  color: black;
+  margin-left: 2.5rem;
+  width: 100%;
+  font-weight: 700;
+}
+@media screen and (max-width: 1024px) {
+  .emojis-colection h1 a {
+    flex-wrap: wrap;
+    margin-left: 0rem;
+  }
+}
+.emojis-colection__tags {
+  display: flex;
+  gap: 1rem;
+  margin-left: 2.5rem;
+}
+@media screen and (max-width: 1024px) {
+  .emojis-colection__tags {
+    flex-wrap: wrap;
+    margin-top: 0;
+    gap: 0.5rem;
+    margin-left: 0rem;
+  }
+}
+.emojis-colection__tags--blue {
+  height: 1.8rem;
+  text-decoration: none;
+}
+.emojis-colection__tags--blue:hover {
+  background-color: rgba(145, 200, 255, 0.2);
+  border-radius: 0.5rem;
+}
+.emojis-colection__tags--blue p {
+  color: black;
+}
+.emojis-colection__tags--blue p span {
+  color: #3B49DF;
+}
+.emojis-colection__tags--pink {
+  height: 1.8rem;
+  text-decoration: none;
+}
+.emojis-colection__tags--pink:hover {
+  background-color: rgba(255, 132, 239, 0.2);
+  border-radius: 0.5rem;
+}
+.emojis-colection__tags--pink p {
+  color: black;
+}
+.emojis-colection__tags--pink p span {
+  color: rgb(255, 132, 238);
+}
+.emojis-colection__tags--purple {
+  height: 1.8rem;
+  text-decoration: none;
+}
+.emojis-colection__tags--purple:hover {
+  background-color: rgba(187, 78, 245, 0.2);
+  border-radius: 0.5rem;
+}
+.emojis-colection__tags--purple p {
+  color: black;
+}
+.emojis-colection__tags--purple p span {
+  color: rgb(187, 78, 245);
+}
+.emojis-colection__tags--green {
+  height: 1.8rem;
+  text-decoration: none;
+}
+.emojis-colection__tags--green:hover {
+  background-color: rgba(48, 147, 107, 0.2);
+  border-radius: 0.5rem;
+}
+.emojis-colection__tags--green p {
+  color: black;
+}
+.emojis-colection__tags--green p span {
+  color: rgb(48, 147, 78);
+}
+
+.comment-section .article__contentMain {
+  padding-top: 1.75rem;
+  padding-bottom: 1.75rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+@media screen and (max-width: 1024px) {
+  .comment-section .article__contentMain {
+    flex-wrap: wrap;
+    padding: 0rem;
+  }
+}
+.comment-section .article__contentMain p {
+  color: #171717;
+  font-size: 1rem;
+  padding: 0;
+  margin-bottom: 1.3rem;
+}
+.comment-section .article__contentMain h3 {
+  margin-bottom: 0.6rem;
+  margin-top: 0.6rem;
+  padding: 0;
+  line-height: 80%;
+}
+.comment-section .article__contentMain h3 a {
+  color: #171717;
+  font-size: 1.25rem;
+  text-decoration: none;
+  font-weight: 700;
+}
+.comment-section .article__contentMain img {
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+}
+@media screen and (max-width: 1024px) {
+  .comment-section .article__contentMain img {
+    width: 100%;
+  }
+}
+
+.reactions {
+  padding-top: 4.5rem;
+}
+.reactions__container {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  gap: 1.5rem;
+}
+.reactions__container--heart a {
+  text-decoration: none;
+}
+.reactions__container--heart a img {
+  width: 30px;
+}
+.reactions__container--heart a p {
+  text-align: center;
+  color: black;
+}
+.reactions__container--comment a {
+  text-decoration: none;
+}
+.reactions__container--comment a img {
+  width: 30px;
+}
+.reactions__container--comment a p {
+  text-align: center;
+  color: black;
+}
+.reactions__container--save a {
+  text-decoration: none;
+}
+.reactions__container--save a img {
+  width: 30px;
+}
+.reactions__container--save a p {
+  text-align: center;
+  color: black;
+}
+.reactions__container--dots a {
+  text-decoration: none;
+}
+.reactions__container--dots a img {
+  width: 25px;
+}
+.reactions__container--dots a p {
+  text-align: center;
+  color: black;
+}
+
+.newParamsDiv {
+  gap: 3rem;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-left: 7%;
+}
+@media screen and (max-width: 1024px) {
+  .newParamsDiv {
+    flex-wrap: wrap;
+    row-gap: 0;
+  }
+}
+.newParamsDiv span {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.newParamsDiv span img {
+  width: 30px;
+}
+.newParamsDiv span p {
+  margin-top: 0.5rem;
+}
+
+.assideLeftFirstNav .list-group .list-group-item {
+  background-color: transparent;
+  border: none;
+}
+.assideLeftFirstNav .list-group .list-group-item a {
+  color: black;
+  cursor: pointer;
+  text-decoration: none;
+}
+.assideLeftFirstNav .list-group .list-group-item a:hover {
+  color: rgb(59, 73, 223);
+}
+.assideLeftFirstNav .list-group .list-group-item a img {
+  height: 24px;
+}
+.assideLeftFirstNav .listTitle {
+  font-size: 1rem;
+  font-weight: 700;
+}
+.assideLeftFirstNav .tagsListTitle .listTitle {
+  font-size: 1rem;
+  font-weight: 700;
+}
+.assideLeftFirstNav .tagsList {
+  max-height: 12rem;
+  overflow-y: auto;
+}
+.assideLeftFirstNav .tagsList li .tagItem {
+  color: rgb(77, 77, 77);
+  font-size: 1rem;
+}
+.assideLeftFirstNav .assideLeftNetworks a span img {
+  height: 1.25rem;
+}
+@media screen and (min-width: 992px) {
+  .assideLeftFirstNav .assideLeftNetworks a span img {
+    height: 1.75rem;
+  }
+}
+
+.cardComunityAsideLeft {
+  font-size: 1rem;
+}
+.cardComunityAsideLeft .title {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.cardComunityAsideLeft a {
+  font-size: inherit;
+}
+.cardComunityAsideLeft strong {
+  font-size: inherit;
+}
+.cardComunityAsideLeft__body--text a {
+  font-weight: 700;
+}
+
+html {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.contentLogin {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin: 0px auto;
+  padding-left: 8rem;
+  padding-right: 8rem;
+}
+.contentLogin__registration {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 0.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 3rem;
+  padding-bottom: rem;
+  margin: 0;
+}
+.contentLogin__registration h1 {
+  font-size: 1.75rem;
+  font-weight: 700;
+}
+.contentLogin__registration p {
+  font-size: 0.9rem;
+}
+
+.registrationButtons {
+  gap: 0.8rem;
+  width: 100%;
+}
+
+.formUser {
+  width: 100%;
+}
+
+.buttonLoggin {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.buttonLoggin button {
+  width: 100%;
+  background-color: #3B49DF;
+  font-weight: bold;
+  padding: 0.6rem;
+}
+.buttonLoggin a {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 0;
+  padding-left: 35%;
+  padding-top: 1rem;
+}
+
+html {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.contentLogin {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin: 0px auto;
+  padding-left: 8rem;
+  padding-right: 8rem;
+}
+.contentLogin__registration {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 0.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 3rem;
+  padding-bottom: rem;
+  margin: 0;
+}
+.contentLogin__registration h1 {
+  font-size: 1.75rem;
+  font-weight: 700;
+}
+.contentLogin__registration p {
+  font-size: 0.9rem;
+}
+
+.registrationButtons {
+  gap: 0.8rem;
+  width: 100%;
+}
+
+.formUser {
+  width: 100%;
+  -moz-column-gap: 0;
+       column-gap: 0;
+}
+
+.buttonLoggin {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.buttonLoggin button {
+  width: 100%;
+  background-color: #3B49DF;
+  font-weight: bold;
+  padding: 0.6rem;
+}
+.buttonLoggin a {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 0;
+  padding-left: 35%;
+  padding-top: 1rem;
+}/*# sourceMappingURL=style.css.map */

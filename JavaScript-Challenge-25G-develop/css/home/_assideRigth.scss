@@ -1,0 +1,153 @@
+@use"../variables";
+
+.container{
+    background-color:variables.$whiteSmoke;
+}
+.cardCommunity {
+    background-color:variables.$whiteBrigth;
+    border-radius:variables.$borderStandar;
+    font-family:variables.$sans-serif;
+    padding: variables.$padding-small;
+    padding-bottom: variables.$padding-small;
+  &__head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color:variables.$smothGreey;
+    &--title {
+        margin: 0;
+        font-size:variables.$size-medium ;
+        color: variables.$greeyS;
+    }
+    &--btnCommunity { 
+        display: flex;
+        flex-direction: row-reverse;
+        &--icon {       
+        padding-left: variables.$size-extra-small;    
+        width: variables.$percentage-medium;
+        }
+    }
+  }
+  &__image {
+    max-width:variables.$percentage-full;
+    padding-top: variables.$padding-small;
+    padding-left:variables.$size-extra-small;
+    padding-right:variables.$size-extra-small;
+    padding-bottom:variables.$size-extra-small;
+  }  
+  &__body {
+    &--subTitle {
+        color:variables.$navbarBlueCreatePost;
+        font-size: variables.$size-medium-x;
+        font-family: variables.$sans-serif;
+        font-weight: variables.$font-700;
+        margin: 0;
+    }
+    &--text {
+        font-family: variables.$sans-serif;
+        color:variables.$GreeyPearl;
+        font-size: variables.$size-standar;
+        padding: 0;
+        margin-bottom: variables.$padding-small;
+    }
+  }
+}
+
+.cardListings {
+    background-color: variables.$whiteBrigth;
+    border-top-left-radius:variables.$borderStandar;
+    border-top-right-radius:variables.$borderStandar;
+    font-family:variables.$sans-serif;
+    margin-top: variables.$size-standar;
+    padding: variables.$size-extra-small;
+    &__header{
+        border-bottom:variables.$borderUnderline;
+        padding: variables.$size-extra-small;
+        &--Title {
+            color:variables.$blackBrigth;
+            font-size:variables.$size-medium-x;
+            font-weight: variables.$font-700;
+        }
+        &--link {
+            color: variables.$navbarBlueCreatePost;
+            font-size: variables.$size-medium;
+            text-decoration: none;
+        }
+    }
+    &__list {
+        border-bottom:variables.$borderUnderline;
+        padding: variables.$padding-small-x;
+        &--trend {
+            color:variables.$GreeyPearl;
+            font-size: variables.$size-standar;
+            text-decoration: none;
+        }
+        &--trend-text {
+            color:variables.$greeyLigth;
+            font-size:variables.$size-medium;
+            margin: 0;
+            text-decoration: none;
+        }
+    }
+}
+
+.btnListing {
+    background-color:variables.$whiteBrigth;
+    border-bottom-left-radius: variables.$borderStandar;
+    border-bottom-right-radius: variables.$borderStandar;
+    margin: 0;
+    &__link{
+        display: flex;
+        color: variables.$GreeyPearl;
+        font-size:variables.$size-standar;
+        padding-left: variables.$percentaje-small;
+        padding-right:variables.$padding-small;
+        padding-top:variables.$padding-small ;
+        padding-bottom: variables.$padding-small;
+        text-decoration: none;
+    }
+}
+
+.cardDiscuss {
+    background-color: variables.$whiteBrigth;
+    font-family:variables.$sans-serif;
+    margin-top: variables.$size-standar;
+    padding: variables.$size-extra-small;
+    border-radius:variables.$borderStandar;
+    &__header{
+        border-bottom:variables.$borderUnderline;
+        padding: variables.$size-extra-small;
+        &--title {
+            color:variables.$blackBrigth;
+            font-size:variables.$size-medium-x;
+            font-weight: variables.$font-700;
+        }
+    }
+    &__list {
+        border-bottom:variables.$borderUnderline;
+        padding: variables.$size-extra-small;
+        &--relevant {
+            color:variables.$GreeyPearl;
+            font-size: variables.$size-standar;
+            text-decoration: none;
+        }
+        &--relevantText {
+            color:variables.$greeyLigth;
+            font-size:variables.$size-medium;
+            margin: 0;
+            text-decoration: none;
+        }
+    }
+}
+.listingsTags{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin: 0.5rem 0rem;
+    .buttonTag{
+        text-decoration: none;
+        font-size: 1.5rem;
+        color: black;
+    }
+}
+
